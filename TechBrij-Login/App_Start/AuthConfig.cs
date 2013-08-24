@@ -19,12 +19,12 @@ namespace TechBrij_Login
             //    clientSecret: "");
 
             OAuthWebSecurity.RegisterTwitterClient(
-                consumerKey: "Z6IcaCRZ75fQXuyyZiKC0w",
-                consumerSecret: "Uz545MDNn8GafiK19yjkcYoKF6O9bpbXIoPwjpcUA");
+                consumerKey: "",
+                consumerSecret: "");
 
             OAuthWebSecurity.RegisterFacebookClient(
-                appId: "126191344226024",
-                appSecret: "6bdb19bbffd4fb7f7fc015ae76ab5a03");
+                appId: "",
+                appSecret: "");
 
             OAuthWebSecurity.RegisterGoogleClient();
         }
